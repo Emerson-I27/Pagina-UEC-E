@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad Educativa "Cayambe"</title>
+    <link rel="icon" href="UEC.png">
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Dancing+Script:wght@400..700&display=swap');
+*{
+    font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+    body{
+    background-color: #000000;
+    margin: 3px;
+    padding: 4px;
+    height: 30px;
+    }
+
+    .img{
+    margin: 10px;
+    width: 110px; /* Ancho del menú */
+    height: 65px; /* Altura completa del menú */
+    background-color: rgba(0, 183, 255, 0.253); /* Color de fondo del menú */
+    border-radius: 16px;
+    border: 2px solid #00c3ff;
+    box-shadow: 0 0 10px #00c3ff;
+    text-align: center;
+
+}
+
+    .in{ 
+        height: 65px; 
+        width: 1195px;
+        top: 0;
+        right: -10px;
+        color: rgb(60, 255, 0);
+        border: 2px solid #ff004c;
+        box-shadow: 0 0 10px #ff004c;
+        background-color: rgba(255, 0, 157, 0.164);
+        margin: 16px;
+        padding: 2px;
+        border-radius: 20px;
+        position: absolute;
+        font-size: 30px;
+       
+    }  
+   
+    .in p{
+        margin: -7px;
+        text-align: center;
+        
+    }
+    
+    .menu {
+        border: 2px solid #ff3c00;
+        box-shadow: 0 0 10px #ff3c00;
+        background-color: rgba(255, 94, 0, 0.171);
+        border-radius: 20px;
+        color: white;
+        align-items: center;
+       display: flex;
+        gap: 122px; /* Espacio entre las opciones del menú */
+}
+.menu-item {
+    position: relative;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.info {
+    margin: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 285px; /* Ancho fijo para el contenido desplegable */
+    background-color:  rgba(255, 217, 0, 0.096);
+    color: rgb(255, 0, 0);
+    border: 1px solid #ffee00;
+    box-shadow: 0 0 5px #ffee00;
+    padding: 15px;
+    border-radius: 25px;
+    display: none; /* Oculta inicialmente */
+}
+
+.menu-item:hover .info {
+    display: block; /* Muestra el contenido cuando el cursor está sobre la opción */
+}
+
+.menu-item:hover {
+    color:#fffb00;
+    background-color: rgba(255, 115, 0, 0.322); /* Cambia el color de fondo al pasar el cursor */
+}
+.vision{
+    color: rgb(0, 247, 255);
+        text-align: center;
+        border: 2px solid #a6ff00;
+        box-shadow: 0 0 10px #73ff00;
+        background-color: rgba(0, 255, 0, 0.123);
+        margin: 5px;
+        padding: 2px;
+        border-radius: 20px;
+        width: 600px; /* Ancho del menú */
+        height: 200px
+}
+.mision{
+    color: rgb(255, 0, 255);
+        text-align: center;
+        border: 2px solid #a6ff00;
+        box-shadow: 0 0 10px #73ff00;
+        background-color: rgba(0, 255, 0, 0.123);
+        margin: 92px;
+        padding: 2px;
+        top: 0;
+        right: 00px;
+        border-radius: 20px;
+        width: 620px; /* Ancho del menú */
+        height: 190px;
+        position: absolute;
+}
+  
+   .nombre{ 
+    position: absolute;
+        text-align: center;
+        color:red ;
+        border-radius: 30px;
+        border: 2px solid #ffae00;
+        box-shadow: 0 0 10px #ff7b00;
+        background-color: rgba(255, 187, 0, 0.123);
+        margin: 850px ;
+        right: -840px;
+        width: 1360px; /* Ancho del menú */
+}
+.nombre p{ 
+        
+       text-align: center;
+        color:rgb(0, 255, 191) ;
+        
+    }
+
+p{
+    text-align: justify;
+    color: #73ff00;
+   }
+   ul li{
+    text-align: left;
+    color: aqua;
+   }
+   img{ 
+    border-radius: 20px;
+   }
+   .font{
+    position: absolute;
+    right: 100;
+    bottom: 100;
+    z-index: -1;
+    filter: brightness(70%);
+    opacity: 0.1;
+   }
+    </style>
+</head>
+<body>
+    <img src="fondo.jpeg" width="1390px" height="1590px" class="font">
+    <div class="img">
+      <a href="https://www.facebook.com/uecayambe/"><img src="UEC.png"  width="50px"  height="60px"></a>  
+
+    </div>
+    <div class="in">
+      <a href="https://www.facebook.com/uecayambe/" style="text-decoration: none;"><p> <b>UNIDAD EDUCATIVA "CAYAMBE"</b> </p>
+        <p>Pasión que se siente</p></a>  
+        
+    </div>
+
+    <div class="vision">
+      <h3><center> Vision</center>
+      </h3>
+      <blockquote> Formar con calidez bachilleres tecnicos conscientes de su interculturalidad y con espiritu emprendedor
+        basasdos en conocimientos teorico practicos, principios axiologicos y preservacion del ambiente, que les permita incursionar en el campo laboral o continuar con sus estudios superiores para enferntar con exito los retos del milenio
+      </blockquote>
+    </div>
+    <div class="mision">
+        <h3>Mision</h3>
+        <blockquote>
+            Constituirse en una institucion lider en educacion tecnica, con identidad propia, recursos humanos de excelencia con un alto nivel de compromiso social tecnologia moderna, cumpliendo con todos los estandares de calidad
+        </blockquote>
+    </div>
+  
+    
+    <div class="menu">
+        <div class="menu-item" onclick="toggleInfo('info1')">
+            SERVICIOS
+            <div class="info" id="info1">
+                <h3>Servicios</h3>
+                <p>La Unidad Educativa "Cayambe" ofrece un amplio desarrollo educativo en Inicial, Basica, Bachillerato en ciencias y en Areas Tecnicas como son:</p>
+                  <ul>
+                    <li>Bachillerato en Informatica</li>
+                    <li>Bachillerato en Agropecuaria</li>
+                    <li>Bachillerato en Desarrollo de Software</li>
+                  </ul>
+                  <p>Horarios de clases:</p>
+                  <ul>
+                    <li>Seccion Matutina: 7:00 A.M a 13:00 P.M (Areas Tecnicas y Educacion Inicial)</li> 
+                    <li>Seccion Vespertina: 13:10 P.M a 18:00 P.M (Ciencias y Educacion Basica)</li>
+                    <li>Seccion Nocturna: 19:00 P.M a 21:00 P.M (Educacion Acelerada)</li>
+                  </ul>
+                  <img src="servicios.jfif" width="280px" height="170px">
+                  <img src="ser.jfif" width="280px" height="170px">
+            </div>
+        </div>
+        <div class="menu-item" onclick="toggleInfo('info2')">
+            DECE
+            <div class="info" id="info2"> 
+                <h3>Departamento de consejeria estudiantil</h3>
+                <p>El D.E.C.E esta presente en la institucion par el desarrollo personal y academico de los estudiantes, padres y docentes. </p>
+                    <p>Ofrece: orientacion, talleres y actividades para el bienestar estudiantil. </p>
+                     <p>Docente encargado:</p>
+                    <ul>
+                        <li>Msc: Gloria Galarza</li>
+                        <li>Psicól: Marcélo López</li>
+                    </ul>
+                    <img src="de.jfif" width="290px" height="190px">
+                    <img src="dece.jfif" width="290px" height="180px">
+            </div>
+        </div>
+        <div class="menu-item" onclick="toggleInfo('info3')">
+            BRIGADAS
+            <div class="info" id="info3">
+                <h3>Brigadas</h3>
+                <p>La brigada estudiantil esta compuesta por estudiantes y docentes que promueven la seguridad y orden dentro del colegio.</p>
+                <p>Participan en actividades de liderasgo y servicio a la comunidada</p>
+                <ul>
+                    <li>Periodismo</li>
+                    <li>Primeros Auxilios</li>
+                    <li>Medio Ambiente</li>
+                    <li>Orden y seguridad</li>
+                    <li>Deportes</li>
+                    <li>Arte y cultura</li>
+                </ul>
+                <img src="pin9.jpg" width="230px" height="150px">
+                <img src="bri.jfif" width="280px" height="170px">
+
+
+            </div>
+        </div>
+        <div class="menu-item" onclick="toggleInfo('info4')">
+            TRANSPORTE
+            <div class="info" id="info4">
+                <h3>Transporte</h3>
+                <p>Contamos con un servicio de transpote seguro y eficiente para facilitar tu llegada a la institucion educativa</p>
+                <p>Los transportes asociadas al colegio son comodos y estan diseñadas para garantizar la seguridad de todos los estudiantes</p>
+                <p>Compañia en cargada del transporte: Lacerocay</p>
+                <img src="bus.jfif" width="290px" height="200px">
+            </div>
+        </div>
+        <div class="menu-item" onclick="toggleInfo('info5')">
+            BAR
+            <div class="info" id="info5">
+                <h3>Bar</h3>
+                
+                <p>Nuestro bar escolar ofrece una variedad de alimentos y bebidas saludables, para que los estudiantes se alimentan adecuadamente durante su jornada laboral.</p>
+                <img src="bar.jpeg" width="230px" height="150px">
+                <img src="barr.jpeg" width="230px" height="150px">
+            </div>
+        </div>
+    </div>
+    <div class="nombre">
+        <a href="https://www.google.com.ec/maps/place/Unidad+Educativa+Cayambe/@0.0185113,-78.1636872,540m/data=!3m1!1e3!4m6!3m5!1s0x8e2a09b61ca7a573:0x331eaf9390d6cf3a!8m2!3d0.0185378!4d-78.1629097!16s%2Fg%2F11cm93s3hl?hl=es&entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" style="text-decoration: none;"> <p>Visitanos: Panamericana Sur Km 2 1/2 via Cayambe - El Quinche, Cayambe, Ecuador</p> <img src="mp.png" width="70px" height="70px"> </a>
+        <a href="https://www.facebook.com/uecayambe/" style="text-decoration: none;"><p>Descubre de nuestro colegio en la pagina de Facebook: Unidad Educativa "Cayambe" - Pagina Oficial</p> <img src="FB.png" width="50px" height="50px"></a> 
+       <hr style="width: 1000px;" color="orange">
+        <p> Nombre: Emerson Imbaquingo.</p>  
+        <p>Curso: Tercero "B" Informatica</p> 
+            
+
+    </div>
+   
+    <script>
+        // Cargar el estado guardado al cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedInfo = localStorage.getItem('activeInfo');
+            if (savedInfo) {
+                toggleInfo(savedInfo);
+            }
+        });
+
+        function toggleInfo(id) {
+            // Cerrar todas las demás secciones
+            const allInfoBoxes = document.querySelectorAll('.info');
+            allInfoBoxes.forEach(function(info) {
+                info.parentElement.classList.remove('active');
+                info.style.display = 'none';
+            });
+
+            // Mostrar la información seleccionada
+            const selectedInfo = document.getElementById(id);
+            const parentMenuItem = selectedInfo.parentElement;
+
+            if (parentMenuItem.classList.contains('active')) {
+                selectedInfo.style.display = 'none';
+                parentMenuItem.classList.remove('active');
+                localStorage.removeItem('activeInfo');
+            } else {
+                selectedInfo.style.display = 'block';
+                parentMenuItem.classList.add('active');
+                localStorage.setItem('activeInfo', id);
+            }
+        }
+    </script>
+
+</body>
+</html>
